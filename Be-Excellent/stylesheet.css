@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px dashed pink; */
+    box-sizing: border-box;
+}
+
+.sign li{
+    list-style: none;
+    float: right;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+/* .group img{
+    height: 50%;
+    width: auto;
+} */
+
+/* .sign{
+    margin-top: 2%;
+} */
+
+.sign a{
+    display: block;
+    text-decoration: none;
+    font-size: 100%;
+    color: white;
+}
+
+
+body{
+    background-image: url("dBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    /* background-size: cover; */
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-position: top;
+    /* width: 100%; */
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.wrapper{
+    margin-top: 2%;
+    width: 75%;
+    vertical-align: center;
+    display: inline-block;
+}
+
+aside{
+    width: 17%;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.navi a{
+    display: block;
+    text-decoration: none;
+    font-size: 150%;
+    color: white;
+    padding-left: 25%;
+    padding-top: 18%;
+}
+
+.navi li{
+    list-style: none;
+}
+
+.innerwrap{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    width: 55%;
+    margin-top: 10%;
+    margin-left: 7%;
+    /* height: 550px; */
+}
+
+footer{
+    margin-top: 14%;
+    float: right;
+    color: red;
+    font-size: 120%;
+    text-align-last: right;
+}
